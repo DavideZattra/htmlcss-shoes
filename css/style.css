@@ -10,16 +10,23 @@ body{
 }
 
 header nav li{
+    /* position:relative; */
     display: inline-block;
     text-align: center; 
+    
 }
 
 header nav li a{
-    display: block;
+    /* position: absolute; */
+    height: 100%;
+    top: 0;
+    bottom: 0;
     text-decoration: none;
     color: black;
     font-weight: 900;
-    font-size: 3.4vh;
+    font-size: 1em;
+    line-height: 5vh;
+    
     
 }
 
@@ -27,9 +34,10 @@ header nav li a{
     display: inline-block;
     background-color: white;
     border-radius: 50%;
-    height: 4vh;
-    width: 4vh;
-    margin: 0 1vh;
+    height: 5vh;
+    width: 5vh;
+    margin: 0 1.5vh;
+    
 }
 
 .link-container{
@@ -49,6 +57,7 @@ header nav li a{
 
 .shoe-caption{
     position: absolute;
+    width: 750px;
     bottom: 10vh;
     left: 0;
     right: 0;
@@ -56,6 +65,7 @@ header nav li a{
     font-size: 4.5em;
     text-transform: uppercase;
     font-weight: 900;
+    margin: 0 auto;
 }
 
 .yellow-txt{
@@ -69,20 +79,20 @@ header nav li a{
 #first-shoe{
     position: relative;
     height: 100vh;
-    width: 100vw;
+    
     background-color: red;
 }
 
 #second-shoe{
     position: relative;
     height: 100vh;
-    width: 100vw;
+    
     background-color: olivedrab;
 }
 
 #third-shoe{
     position: relative;
     height: 100vh;
-    width: 100vw;
+    
     background-color: yellow;
 }
