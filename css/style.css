@@ -18,7 +18,7 @@ header nav li a{
     text-decoration: none;
     color: black;
     font-weight: 900;
-    font-size: 1.5em;
+    font-size: 1.9em;
     
 }
 
@@ -29,8 +29,7 @@ header nav li a{
     height: 4vh;
     width: 4vh;
     margin: 2vh 2vh 0 0 ;
-    padding-top: 8%;
-    
+
 }
 
 .link-container{
